@@ -20,11 +20,11 @@ public class FacebookTesting {
 		driver.get("http://facebook.com");
 		
 		WebElement email = driver.findElement(By.id("email"));
-		email.sendKeys("kdcool86");
+		email.sendKeys("xxxxx");
 		
 		WebElement password = driver.findElement(By.id("pass"));
 		
-		password.sendKeys("turnmeon");
+		password.sendKeys("xxxxxx");
 		
 		WebElement Loginbutton = driver.findElement(By.id("loginbutton"));
 		

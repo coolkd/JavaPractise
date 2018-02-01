@@ -10,14 +10,14 @@ public class FlightBookingFlow {
 	public static void main(String[] args) throws InterruptedException {
 
 		ArrayList<LoginData> dataCollection = new ArrayList<LoginData>();
-		dataCollection.add(new LoginData("happy-hma travels-hsingh", "welcome"));
-		dataCollection.add(new LoginData("jesup", "welcome"));
+		dataCollection.add(new LoginData("happy-hma travels-hsingh", "xxxxx"));
+		dataCollection.add(new LoginData("jesup", "xxxxx"));
 
 		WebDriver driver = null;
 
 		System.setProperty("webdriver.gecko.driver", "/home/kuldeep/Downloads/geckodriver");
 		driver = new FirefoxDriver();
-		driver.get("http://atlas:andromeda@stage-cpanel.hmatravel.com/travel-agency/v/");
+		driver.get("http://atlascycle:andromeda@stage-cpanel.hmatravel.com/travel-agency/v/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		for (LoginData data : dataCollection) {

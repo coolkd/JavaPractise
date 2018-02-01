@@ -36,11 +36,11 @@ public class HmaTravel2 {
 
 		WebElement username = driver.findElement(By.xpath("//*[@id='userLoginForm:userName']"));
 
-		username.sendKeys("ashwin");
+		username.sendKeys("xxxx");
 
 		WebElement password = driver.findElement(By.xpath("//*[@id='userLoginForm:password']"));
 
-		password.sendKeys("hello");
+		password.sendKeys("xxxx");
 
 		WebElement loginbutton = driver.findElement(By.xpath("//*[@id='userLoginForm:login']"));
 
@@ -59,11 +59,11 @@ public class HmaTravel2 {
 
 		WebElement username1 = driver.findElement(By.xpath("//*[@id='userLoginForm:userName']"));
 
-		username1.sendKeys("hello");
+		username1.sendKeys("xxxxx");
 
 		WebElement password1 = driver.findElement(By.xpath("//*[@id='userLoginForm:password']"));
 
-		password1.sendKeys("welcome");
+		password1.sendKeys("xxxxx");
 
 		WebElement loginbutton2 = driver.findElement(By.xpath("//button[@id='userLoginForm:login']"));
 

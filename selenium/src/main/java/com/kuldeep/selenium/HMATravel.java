@@ -24,15 +24,15 @@ public class HMATravel {
 	}
 
 	private static void Tocheckvalidusernme(WebDriver driver) throws InterruptedException {
-		driver.get("http://hmatravel.com/travel/");
+		driver.get("http://test.hmatravel.com/travel/");
 
 		WebElement username1 = driver.findElement(By.xpath("//input[@id='userLoginForm:userName']"));
 
-		username1.sendKeys("ashwin");
+		username1.sendKeys("xxxxx");
 
 		WebElement password = driver.findElement(By.xpath("//input[@id='userLoginForm:password']"));
 
-		password.sendKeys("welcome");
+		password.sendKeys("xxxxx");
 
 		WebElement loginbutton = driver.findElement(By.id("userLoginForm:login"));
 
@@ -48,7 +48,7 @@ public class HMATravel {
 
 	private static void checkInvalidUsernamePassword(WebDriver driver) throws InterruptedException {
 
-		driver.get("http://hmatravel.com/travel/");
+		driver.get("http://test.hmatravel.com/travel/");
 
 		WebElement username1 = driver.findElement(By.xpath("//input[@id='userLoginForm:userName']"));
 
@@ -56,7 +56,7 @@ public class HMATravel {
 
 		WebElement password = driver.findElement(By.xpath("//input[@id='userLoginForm:password']"));
 
-		password.sendKeys("welcome");
+		password.sendKeys("xxxx");
 
 		WebElement loginbutton = driver.findElement(By.id("userLoginForm:login"));
 
